@@ -19,7 +19,7 @@ public class AppCardDeliveryTest {
 
 
     @Test
-    public void shouldBeSuccessfulCompleted() {
+    public void shouldBeSuccessComgitpleted() {
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Пе");
         $$(".menu-item__control").findBy(text("Петрозаводск")).click();
